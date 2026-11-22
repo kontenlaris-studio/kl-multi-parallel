@@ -62,3 +62,13 @@
 46. Free-testnet hash anchoring of audit evidence (optional, no real funds)
 47. Team mode: shared read-only report links on local network, role-based access
 48. One-command full ecosystem run: MultiParallel + all KL-Exploit-Lab tools chained into a single signed report
+
+## v5.5 — Polish & reach (mid-cycle)
+49. Smart defaults: ports/records auto-picked from target type (web, mail, IoT, game server)
+50. Scan presets: `cepat` (fast), `dalam` (deep), `senyap` (low-rate polite) one-word modes
+51. Live progress bar + ETA in Termux, per-target status while scanning
+52. Result dedup & merge: repeated scans merged into one clean dataset automatically
+53. Report templates: client, personal, and GitHub-issue formats (EN/ID)
+54. QR-share results: a scan summary shared to another Termux as a QR code, offline
+55. Accessibility mode: high-contrast output, screen-reader friendly plain mode
+56. Auto self-check on start: verifies own version, DNS reachability, and clock before scanning

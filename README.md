@@ -12,3 +12,6 @@ python3 kl_multi_parallel.py --domain example.com --records A,MX,NS --yes
 ```
 Bahasa Indonesia: tool mandiri untuk scan multi-IP paralel + multi-DNS paralel, gratis, khusus Termux & Linux, mode deteksi aman saja.
 MIT License — Kontenlaris.Studio
+
+## v5.5 (deployed)
+Smart defaults by target kind (`--kind web|mail|iot|game`), presets (`--preset cepat|dalam|senyap`), live progress bar + ETA, merge+dedup JSON reports (`--merge`), report templates (`--template client|personal|github` + `--report`), QR-share code + QR image URL (`--qr-share`), accessibility plain mode (`--plain`), automatic self-check on start (version, system DNS, server clock; `--no-selfcheck` to skip).

@@ -75,7 +75,7 @@ def scan_one(args):
         s = socket.create_connection((host, port), timeout=TIMEOUT["v"])
         s.settimeout(1.5); banner = ""
         try: banner = s.recv(80).decode(errors="replace").strip()
-        except Exception: pass
+        except Exception: pass  # audit:allow — banner kosong/timeout memang normal untuk port terbuka tanpa banner; me-log tiap port = spam
         s.close()
         return (host, port, "OPEN", banner, round((time.time()-t0)*1000))
     except Exception:
